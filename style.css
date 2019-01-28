@@ -1,0 +1,161 @@
+body,
+html {
+   font-family: 'Montserrat', sans-serif;
+}
+
+/* --topNav-- */
+.topNav {
+ padding-top: 20px;
+}
+
+.topNav p {
+   color: #004183;
+}
+
+.topNav a {
+   color: #004183;
+}
+
+.topNav .getInTouch {
+   text-align: right;
+}
+
+/* --NAVBAR-- */
+.navbar-custom {
+   background-color: #004183;
+   color: white;
+}
+
+.navbar-custom a {
+   color: white;
+}
+
+.navbar-custom a:hover {
+   color: white;
+   font-weight: 600;
+}
+
+.nav-link.active {
+   font-weight: 600;
+   text-decoration: underline;
+}
+
+.dropdown-menu,
+.dropdown-item {
+   background-color: #004183;
+   color: white;
+}
+
+.dropdown-item:hover {
+   background-color: #004183;
+   color: white;
+   font-weight: 600;
+}
+
+.custom-toggler.navbar-toggler {
+   border-color: white;
+}
+
+.custom-toggler .navbar-toggler-icon {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* --CAROUSEL-- */
+header .carousel-item {
+   background: no-repeat center center scroll;
+   background-size: cover;
+   height: 65vh;
+   min-height: 25rem;
+}
+
+/* Changes position of carousel caption */
+.carousel-caption {
+   bottom: auto;
+   top: 30%;
+}
+
+.carousel-caption .display-4 {
+   text-transform: uppercase;
+}
+
+/* --FIND OUT MORE-- */
+.findOutMoreContainer {
+   background-color: #004183;
+   color: white;
+   margin-bottom: 50px;
+   padding: 10px;
+}
+
+@media screen and (min-width: 1000px) {
+   .findOutMoreContainer strong {
+      font-size: 1.7rem;
+   }
+}
+
+/* --WHY US-- */
+.whyUs {
+   margin-bottom: 50px;
+}
+
+.whyUs strong {
+   font-weight: 900;
+}
+
+/* --over35-- */
+.over35 {
+   margin-bottom: 50px;
+}
+
+.over35 strong {
+   color: #004183;
+   font-weight: 900;
+}
+
+@media screen and (min-width: 1000px) {
+   .over35 p {
+      font-size: 3rem;
+   }
+}
+
+/* --serviceContainer*/
+.serviceContainer {
+   margin-bottom: 50px;
+}
+
+.serviceContainer .row {
+   text-align: center;
+}
+
+.card {
+   background-color: #004183;
+   color: white;
+}
+
+.card-body i {
+   font-size: 5rem;
+   margin-bottom: 10px;
+}
+
+.card-title {
+   margin-bottom: 15px;
+}
+
+footer {
+   background-color: #004183;
+   color: white;
+   padding-top: 15px;
+}
+
+footer a {
+   color: white;
+}
+
+@media screen and (min-width: 1000px) {
+   footer .links {
+      text-align: center;
+   }
+
+   footer .address {
+      text-align: right;
+   }
+}
