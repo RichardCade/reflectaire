@@ -1,6 +1,14 @@
+/* --Drop Down Menu-- */
+.dropdown-item.active {
+   background-color: #004183;
+   font-weight: 600;
+   text-decoration: underline;
+}
+
 /* --ourServices--*/
 .ourServices {
    margin-top: 50px;
+   padding-left: 20px;
 }
 
 .ourServices .display-3 {
@@ -71,6 +79,15 @@
 .contactAction p {
    margin: 0;
    padding: 0;
+}
+
+@media screen and (max-width: 1000px) {
+   .contactAction p {
+   font-size: 1.5rem;
+}
+   .contactAction strong {
+   font-size: 1.5rem;
+}
 }
 
 /* --PROJECTS GALLERY-- */
