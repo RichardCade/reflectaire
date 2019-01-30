@@ -17,8 +17,27 @@ html {
    color: #004183;
 }
 
+.topNav .officeHours {
+   padding-left: 20px;
+}
+
 .topNav .getInTouch {
+   padding-right: 20px;
    text-align: right;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+   .topNav .getInTouch {
+      font-size: 15px;
+      padding: 0;
+      margin: 0;
+   }
+
+   .topNav .officeHours {
+      font-size: 15px;
+      padding: 0;
+      margin: 0;
+   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 768px) {
@@ -27,6 +46,14 @@ html {
    }
 }
 
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+   .navbar-brand {
+      padding: 0;
+      margin: 0;
+      margin-left: 100px;
+   }
+}
 /* --NAVBAR-- */
 .navbar-custom {
    background-color: #004183;
