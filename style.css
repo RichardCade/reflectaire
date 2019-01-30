@@ -1,11 +1,12 @@
 body,
 html {
    font-family: 'Montserrat', sans-serif;
+   height: 100%;
 }
 
 /* --topNav-- */
 .topNav {
- padding-top: 20px;
+   padding-top: 20px;
 }
 
 .topNav p {
@@ -18,6 +19,12 @@ html {
 
 .topNav .getInTouch {
    text-align: right;
+}
+
+@media screen and (min-width: 768px) and (max-width: 768px) {
+   .topNav .getInTouch {
+      padding-right: 20px;
+   }
 }
 
 /* --NAVBAR-- */
@@ -78,23 +85,10 @@ header .carousel-item {
    text-transform: uppercase;
 }
 
-/* --FIND OUT MORE-- */
-.findOutMoreContainer {
-   background-color: #004183;
-   color: white;
-   margin-bottom: 50px;
-   padding: 10px;
-}
-
-@media screen and (min-width: 1000px) {
-   .findOutMoreContainer strong {
-      font-size: 1.7rem;
-   }
-}
-
 /* --WHY US-- */
 .whyUs {
    margin-bottom: 50px;
+   margin-top: 50px;
 }
 
 .whyUs strong {
@@ -140,6 +134,78 @@ header .carousel-item {
    margin-bottom: 15px;
 }
 
+/* --ABOUT US-- */
+.about {
+   padding: 0;
+}
+
+.about .display-4 {
+   font-weight: 600;
+   margin-bottom: 50px;
+   margin-top: 50px;
+}
+
+.about .aboutText {
+   margin-bottom: 50px;
+   margin-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+   .about .aboutText {
+      margin-left: 10px;
+      margin-right: 10px;
+   }
+}
+
+/* --PROJECTS-- */
+.hero-image {
+   background-image: url("images/pencils.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 30%;
+   position: relative;
+}
+
+.hero-text {
+   color: black;
+   left: 50%;
+   position: absolute;
+   text-align: center;
+   top: 50%;
+   -webkit-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+}
+
+.hero-text .display-4 {
+   font-weight: 700;
+}
+
+.projectContainer {
+   margin-bottom: 50px;
+   margin-top: 50px;
+}
+
+.projectText {
+   -ms-flex-item-align: center;
+   align-self: center;
+}
+
+.projectHeader {
+   font-size: 25px;
+}
+
+.projectText p {
+   font-size: 20px;
+   margin-top: 25px;
+}
+
+.projectDivider {
+   border-top: 2px solid black;
+}
+
+/* --FOOTER-- */
+
 footer {
    background-color: #004183;
    color: white;
@@ -150,6 +216,21 @@ footer a {
    color: white;
 }
 
+footer a:hover {
+   color: white;
+   font-weight: 600;
+}
+
+@media screen and (max-width: 1000px) {
+   footer .links {
+      text-align: left;
+   }
+
+   footer .address {
+      text-align: left;
+   }
+}
+
 @media screen and (min-width: 1000px) {
    footer .links {
       text-align: center;
@@ -157,5 +238,13 @@ footer a {
 
    footer .address {
       text-align: right;
+   }
+}
+
+@media screen and (min-width: 1367px) {
+   .aboutFooter {
+      bottom: 0;
+      position: absolute;
+      width: 100%;
    }
 }
